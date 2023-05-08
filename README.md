@@ -9,8 +9,10 @@ To use the function:
 - create an array of type short int that contains the digits of your number. for example:
 
     short num1[] = {1, 6, 1, 8, 0, 3, 4, 8, 7};
+    
     short num2[] = {0, 6, 4, 7, 1, 2, 8, 1, 5, 7, 0, 8};
 
 - pointers num1 and num2 represent the arrays of numbers you want to multiply
 - size1 and size2 represent the amount of digits in the arrays
+- accuracy is the amount of digits that you want your result to have
 - the result is a pointer to an array of type short int
