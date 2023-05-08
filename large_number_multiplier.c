@@ -4,7 +4,7 @@ short *longIntMultiply(short *num1, short *num2, int size1, int size2, int accur
     int size = size1 + size2;
     int temp;
     short *res = (short*)calloc(size, sizeof(short)), carry = 0;
-    //calculating product, ignoring decimal point
+    //calculating product
     for(int i = size1 - 1, l = 1, m = 0; i >= 0; --i, ++l){
         for(int j = size2 - 1, k = size - l; j >= 0; --j, --k){
             temp = num1[i] * num2[j] + res[k] + carry;
