@@ -2,7 +2,8 @@
 
 Contains a function that is capable of multiplying massive integer numbers stored in arrays
 This function was created to multiply numbers that do not fit in the maximum "unsigned long long int" and similar datatypes. 
-Such numbers are stored in arrays. To multiply them we use an algorithm similar to the one used for multiplying on paper.
+Such numbers are stored in arrays. 
+This function uses the naive approach, which is similar to the algorithm used for multiplying on paper.
 
 To use the function: 
  
